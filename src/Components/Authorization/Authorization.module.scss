@@ -1,0 +1,89 @@
+.auth {
+  margin: 3rem auto 0 auto; /* Добавляем отступ сверху 3rem */
+  max-width: 36.5rem;
+  height: 28.14286rem;
+  border-radius: 1.42857rem;
+  border: 1px solid #e4e4ed;
+  background: #fff;
+  padding: 3.86rem;
+}
+
+.auth__header {
+  display: flex;
+  column-gap: 1rem;
+  align-items: center;
+}
+
+.auth__title {
+  color: #241f5c;
+  font-family: "Montserrat";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+}
+
+.auth__inputs {
+  display: flex;
+  flex-direction: column;
+  padding-top: 4rem;
+
+}
+
+.auth__username {
+  max-width: 33.35714rem;
+  height: 4rem;
+  background: #ffffff;
+  border-radius: 1rem;
+  border: 0.1rem solid #ccc;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+
+  &::placeholder {
+    color: #000000;
+  }
+}
+
+.auth__password {
+  max-width: 33.35714rem;
+  height: 4rem;
+  background: #ffffff;
+  border-radius: 1rem;
+  border: 0.1rem solid #ccc;
+  padding: 1rem;
+  margin-bottom: 0.2rem;
+
+  &::placeholder {
+    color: #000000; 
+  }
+}
+
+.auth__flex {
+  display: flex;
+  justify-content: end;
+}
+
+.auth__button {
+  width: 9rem;
+  height: 3rem;
+  border-radius: 1.42857rem;
+  background: #241f5c;
+  margin-top: 3rem;
+}
+
+.auth__button_p {
+  color: white;
+  font-family: "Montserrat";
+}
+
+.error {
+  color: #fe0808;
+  font-family: 'Montserrat';
+  font-size: 0.7rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  // margin-top: 0.1rem;
+  // margin-bottom: 0.3rem;
+}

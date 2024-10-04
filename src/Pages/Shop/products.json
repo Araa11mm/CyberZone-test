@@ -1,0 +1,61 @@
+{
+  "cases": [
+    {
+      "id": 1,
+      "image": "Glass.jpg",
+      "name": "Стеклянные"
+    },
+    {
+      "id": 2,
+      "image": "Silicone.jpg",
+      "name": "Силиконовые"
+      
+    },
+    {
+      "id": 3,
+      "image": "Leather.jpg",
+      "name": "Кожаные"
+      
+    }
+  ],
+  "wired_earphones": [
+    {
+      "id": 1,
+      "image": "EarPods.jpg",
+      "name": "Apple EarPods",
+      "price": 1999
+    },
+    {
+      "id": 2,
+      "image": "EarPods2.jpg",
+      "name": "Apple EarPods",
+      "price": 1999
+    },
+    {
+      "id": 3,
+      "image": "EarPods3.jpg",
+      "name": "Apple EarPods",
+      "price": 2999
+    }
+  ],
+  "wireless_earphones": [
+    {
+      "id": 1,
+      "image": "AirPods.jpg",
+      "name": "Apple AirPods",
+      "price": 12990
+    },
+    {
+      "id": 2,
+      "image": "AirPodsPro.jpg",
+      "name": "Apple AirPods Pro",
+      "price": 22999
+    },
+    {
+      "id": 3,
+      "image": "Beats.jpg",
+      "name": "Beats",
+      "price": 10000
+    }
+  ]
+}

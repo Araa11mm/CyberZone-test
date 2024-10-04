@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3.29rem;
+}
+
+.logo {
+  font-family: "Montserrat";
+  font-size: 1.7rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: #000;
+}
+
+.exit {
+  width: 5.71429rem;
+  height: 2.42857rem;
+  background: #3799c3;
+
+  p {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+}
